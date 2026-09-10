@@ -10,13 +10,13 @@
 >
 > A hozzá nem rendelt eszközök (Unassigned Devices) megosztásai csak akkor jelennek meg, ha a Lomtár engedélyezve van a hozzá nem rendelt eszközöknél, és vannak olyan csatolt, megosztott eszközök, amelyek Lomtár-tartalommal rendelkeznek.
 >
-> Kattints a táblázat fejlécének 'SMB megosztás', 'Megosztás típusa' vagy 'Lomtár mérete' oszlopaira a tartalom rendezéséhez. A 'Lomtár mérete' alfanumerikus és nem numerikus rendezésű.
+> Kattints a táblázat fejlécének 'SMB-megosztás', 'Megosztás típusa' vagy 'Lomtár mérete' oszlopaira a tartalom rendezéséhez. A 'Lomtár mérete' alfanumerikus és nem numerikus rendezésű.
 :end
 
 :recycle_bin_enable_plug:
 > Állítsd **Igen** értékre a törölt fájlokra vonatkozó Lomtár funkció engedélyezéséhez a szerver indításakor.
 >
-> A Lomtár mappa elrejtéséhez állítsd az 'A ponttal kezdődő fájlok elrejtése' opciót 'Igen' értékre az SMB beállításoknál <a href='/Settings/SMB'>itt</a>.
+> A Lomtár mappa elrejtéséhez állítsd az 'A ponttal kezdődő fájlok elrejtése' opciót 'Igen' értékre az SMB-beállításoknál <a href='/Settings/SMB'>itt</a>.
 :end
 
 :recycle_bin_hide_folder_plug:
@@ -28,7 +28,7 @@
 :end
 
 :recycle_bin_ud_plug:
-> Állítsd **Igen** értékre a törölt fájlok Lomtár funkciójának engedélyezéséhez a hozzá nem rendelt eszközök (Unassigned Devices) meghajtó-megosztásain, ha a hozzá nem rendelt eszközök plugin telepítve van. Az SMB/NFS csatolások és az ISO csatolások ki vannak zárva ezen a szerveren a Lomtár funkcióból. Engedélyezd a Lomtárat azon a távoli szerveren, ahonnan a távoli megosztás származik, ha az egy Unraid szerver.
+> Állítsd **Igen** értékre a törölt fájlok Lomtár funkciójának engedélyezéséhez a hozzá nem rendelt eszközök (Unassigned Devices) meghajtó-megosztásain, ha a hozzá nem rendelt eszközök plugin telepítve van. Az SMB/NFS-csatolások és az ISO-csatolások ki vannak zárva ezen a szerveren a Lomtár funkcióból. Engedélyezd a Lomtárat azon a távoli szerveren, ahonnan a távoli megosztás származik, ha az egy Unraid szerver.
 :end
 
 :recycle_bin_parameters_plug:
@@ -124,9 +124,9 @@ Remove Aged Files on Schedule=Régi fájlok eltávolítása ütemezés szerint
 Remove all files from the Recycle Bin=Összes fájl eltávolítása a Lomtárból
 Restart the Recycle Bin=Lomtár újraindítása
 Share Type=Megosztás típusa
-SMB Share=SMB megosztás
+SMB Share=SMB-megosztás
 Start the Recycle Bin=Lomtár indítása
-Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=A Lomtár indítása és leállítása miatt az SMB megosztások rövid időre elérhetetlenné válhatnak
+Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=A Lomtár indítása és leállítása miatt az SMB-megosztások rövid időre elérhetetlenné válhatnak
 Stop the Recycle Bin=Lomtár leállítása
 These actions apply to all shares=Ezek a műveletek az összes megosztásra érvényesek
 Trash Size=Lomtár mérete
