@@ -133,8 +133,7 @@ User defined options=Felhasználó által megadott opciók
 > Vedd figyelembe, hogy a -a argumentuma körüli egyszeres idézőjelek fontosak. A dupla idézőjelek nem működnek a jelenlegi verzióban, így sajnos jelenleg nem lehetséges a '-name "*Old" -prune' szerinti szűrés.
 :end
 
-; Note: December 8, 2024 - 4 missing translations // July 18, 2026 - Fully translated to Hungarian by nkgy17
-Memory available to the cache_dirs script increase if it dies=A cache_dirs szkript számára elérhető memória *(növeld, ha összeomlik)*
+Memory available to the 'cache_dirs' script increase if it dies=A 'cache_dirs' szkript számára elérhető memória *(növeld, ha összeomlik)*
 Timeout during disk-idle period=Időtúllépés a lemezek üresjárati időszakában
 Timeout during initial startup or less-idle period=Időtúllépés a kezdeti induláskor vagy kevésbé üresjárati időszakban
 Timeout when all directories have been cached=Időtúllépés, amikor már minden könyvtár gyorsítótárazva van
