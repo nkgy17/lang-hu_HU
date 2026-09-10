@@ -26,6 +26,6 @@ to obtain a MapQuest API key=egy MapQuest API-kulcs beszerzéséhez
 > A geokódolási szolgáltatás arra szolgál, hogy a címedet földrajzi koordinátákká (szélességi és hosszúsági fokokká) alakítsa.<br>
 > A szolgáltatás használatához regisztrálnod kell az elérhető lehetőségek egyikére, és be kell szerezned egy egyedi API-kulcsot.
 >
-> A **nappali** téma a napkelte és naplemente közötti időszakban lesz kiválasztva.<br>
-> Az **éjszakai** téma a naplemente és napkelte közötti időszakban lesz kiválasztva.
+> A rendszer a napkelte és naplemente közötti időszakban a **nappali** témát választja ki.<br>
+> A rendszer a naplemente és napkelte közötti időszakban az **éjszakai** témát választja ki.
 :end
